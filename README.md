@@ -16,3 +16,12 @@ riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-c
 |      |                                                              |        |
 |      |                                                              |        |
 
+
+
+## 《超标量处理器设计》梳理
+
+| 日期 | 主题  | 成员   |
+| ---- | ----- | ------ |
+| 9.22 | cache | 段震伟 |
+|      |       |        |
+|      |       |        |
