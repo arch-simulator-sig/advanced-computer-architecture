@@ -175,6 +175,34 @@ early restart : **as soon as the requested word arrives in the cache, send it to
 
 ## 多端口cache
 
+### true multi-port
+
+cache 中 data path 和 control path都要复制，需要两套decoder，两个way mux，消耗资源多，功耗大，不推荐
+
+### multiple cache copies
+
+<img src="./../image/cache/image-20230916215208282.png" alt="image-20230916215208282" style="zoom:67%;" />
+
+tag sram，data sram都复制，从而避免多端口设计，但是更浪费面积，两份SRAM同步困难
+
+### multi banking
+
+<img src="./../image/cache/image-20230916215403938.png" alt="image-20230916215403938" style="zoom:67%;" />
+
+data sram是单份，其余资源是双份，bank实际上是data分块索引，但是bank也会用冲突
+
+<img src="./../image/cache/image-20230917201613495.png" alt="image-20230917201613495" style="zoom:50%;" />
+
+### amd opteron multi banking cache
+
+<img src="./../image/cache/image-20230917203102656.png" alt="image-20230917203102656" style="zoom: 80%;" />
+
+
+
+## 超标量取指令
+
+需结合具体案例分析
+
 
 
 
