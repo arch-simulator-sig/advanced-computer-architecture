@@ -14,5 +14,5 @@ riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-c
 | :--: | :----------------------------------------------------------: | :--: | :----: |
 | 9.22 |    [超标量处理器系列1 cache](./超标量处理器设计/cache.md)    |      | 段震伟 |
 | 9.22 | [tilelink入门](https://sagca6ucd2p.feishu.cn/docx/TbABd17ZYoryH8xpWNHcyL73noe) |      | 丁庆辰 |
-|      |                                                              |      |        |
+| 9.22 |         [cva6乱序执行原理](cva6/cva6乱序执行原理.md)         |      | 李子龙 |
 
