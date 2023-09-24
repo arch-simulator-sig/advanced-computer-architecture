@@ -139,7 +139,7 @@ filter cache在data第一次使用时不放入cache, 再次使用时才移入，
 
 ![image-20230916204143070](./../image/cache/image-20230916204143070.png)
 
-alpha-21264 ：L1 cache miss，将data block从L2 cache中取出，同时将下一个data block放入stream buffer。当L1 cache miss 但在stream buffer命中时，stream buffer中data block移到L1 cache，继续从L2 cache取data。但分支质量有很大影响。
+alpha-21264 ：L1 cache miss，将data block从L2 cache中取出，同时将下一个data block放入stream buffer。当L1 cache miss 但在stream buffer命中时，stream buffer中data block移到L1 cache，继续从L2 cache取data。但分支指令有很大影响。
 
 ==strided prefetch==
 
@@ -202,8 +202,6 @@ data sram是单份，其余资源是双份，bank实际上是data分块索引，
 ## 超标量取指令
 
 需结合具体案例分析
-
-
 
 
 
