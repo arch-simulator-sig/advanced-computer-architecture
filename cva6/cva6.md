@@ -1,4 +1,4 @@
-# cva6流水线
+# cva6流水线（主线）
 
 [toc]
 
@@ -7,6 +7,12 @@
 > https://docs.openhwgroup.org/projects/cva6-user-manual/03_cva6_design/index.html
 >
 > https://zhuanlan.zhihu.com/p/496078836
+
+## Intro
+
+cva6是一颗具备6级流水、顺序发射、乱序执行、顺序提交的RISC-V CPU。利用scoreboard技术，避免WAW、WAR、RAW数据依赖性，通过动态调度流水线的方式，实现乱序执行，提高流水线效率。
+
+流水线各级之间大致通过valid/ready，以级间握手的方式，加上全局的控制器（实现非相邻流水段之间的信号传递）实现流水。
 
 ## Frontend（PC-Gen+IF）
 
@@ -99,6 +105,36 @@
 **提交阶段**负责更新体系结构的状态，包括写回寄存器堆、写入内存等行为，这一步称为指令的提交，指令一旦提交，便不可逆转，提交的同时将scoreboard队列出队，即commit指针+1。另外，为了中断精确发生，前面阶段所发生的异常都推迟到提交阶段处理。
 
 <img src="https://blog-1252412046.cos.ap-shanghai.myqcloud.com/202309221422812.png" alt="image.png" style="zoom:50%;" />
+
+
+
+## Controller（全局控制器）
+
+<img src="https://blog-1252412046.cos.ap-shanghai.myqcloud.com/image-20230928181459368.png" alt="image-20230928181459368" style="zoom:50%;" />
+
+**控制器**负责控制流水线的冲刷、暂停等。比如收到提交`fence.i`指令信号的时候：
+
+``` systemverilog
+        // ---------------------------------
+        // FENCE.I
+        // ---------------------------------
+        if (fence_i_i) begin
+            set_pc_commit_o        = 1'b1;
+            flush_if_o             = 1'b1;
+            flush_unissued_instr_o = 1'b1;
+            flush_id_o             = 1'b1;
+            flush_ex_o             = 1'b1;
+            flush_icache_o         = 1'b1;
+// this is not needed in the case since we
+// have a write-through cache in this case
+            if (DCACHE_TYPE == int'(cva6_config_pkg::WB)) begin
+              flush_dcache           = 1'b1;
+              fence_active_d         = 1'b1;
+            end
+        end
+```
+
+控制器会通知冲刷之前所有的流水段，冲刷icache，并用`set_pc_commit_o`信号通知pc-gen模块从被提交指令所在地址的之后的一条指令开始取指。
 
 ## 运行cva6前遇到的一些坑
 
