@@ -6,7 +6,7 @@ language: mainly C++
 
 elements: modules, ports, method-call, models, benchmarks
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/0c7913ca-16da-497a-919e-54a8e329148a/Untitled.png)
+![image](https://github.com/arch-simulator-sig/advanced-computer-architecture/assets/100679322/2042ac93-883e-4dec-9798-5f107d355de3)
 
 Features:
 
@@ -20,7 +20,7 @@ e.g. generic BPU:
 
 GetPrediction, UpdateBranchPredictor, HandleMispredictedBranch
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/add970a7-b4ac-4c3b-9951-51c58bea4708/Untitled.png)
+![image](https://github.com/arch-simulator-sig/advanced-computer-architecture/assets/100679322/314cc975-d6f0-4068-9401-9ac78b058a06)
 
 ports vs method-call: bounded vs internal interface
 
@@ -32,7 +32,7 @@ info management: .awb file
 
 keywords: name, desc, attributes, provides, requires, public, private, param
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/163e4fc6-6c5d-4bd0-b900-7f17130c5612/Untitled.png)
+![image](https://github.com/arch-simulator-sig/advanced-computer-architecture/assets/100679322/bd3f032c-ecad-4d58-b7cb-c4a17cd84d93)
 
 ports: message info, delay, max bandwidth
 
@@ -109,11 +109,11 @@ feeder provide mesg at ticks perf model call it to do so
 
 feeder→logical activicity，perf model→scheduler
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/f2fb9c97-5664-4f38-9e5d-43064a48c658/Untitled.png)
+![image](https://github.com/arch-simulator-sig/advanced-computer-architecture/assets/100679322/54128f27-0238-4f9d-a9ec-653c398e9747)
 
 architect workbench:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/809774cb-fe73-4730-b28b-268367c1080a/Untitled.png)
+![image](https://github.com/arch-simulator-sig/advanced-computer-architecture/assets/100679322/48654b7c-1e67-4982-a694-8684ce0fb5e0)
 
 specify modules, hierarchy, src file, etc. Build things automatically
 
@@ -124,7 +124,8 @@ asim cache overall abstraction:
 3. return cacheline* for processor impl if tag hit(feeder only: no matter hit or miss), else nullptr
 4. abstract cacheline data unit(no assumptions about address or Qword alignment)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/f0ebd3e9-f05e-47bd-89cf-d14c6feda4d4/Untitled.png)
+   ![image](https://github.com/arch-simulator-sig/advanced-computer-architecture/assets/100679322/04f27387-f41e-42ae-9e6a-d51fdc1a6c6e)
+
     
 5. base units: line_state_dynamic, lru_info_dynamic, VictimPolicy→cache_class
 
@@ -281,8 +282,6 @@ method: getter&setter(data, state, lruinfo…), Dump, addr misc
 **asim/cache_dyn.h: abstract cache class impl**
 
 **asim/cache_manager.h: system level cache module impl(higher abstraction)**
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3425f737-0235-494a-91d8-9ae29b0b0069/aec4b521-10aa-478a-9db2-57517d7934f6/Untitled.png)
 
 ```jsx
 class CACHE_MANAGER
