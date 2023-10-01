@@ -16,4 +16,4 @@ riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-c
 | 9.22 | [tilelink入门](https://sagca6ucd2p.feishu.cn/docx/TbABd17ZYoryH8xpWNHcyL73noe) | https://www.bilibili.com/video/BV11N411J7Ty | 丁庆辰 |
 | 9.22 |         [cva6乱序执行原理](cva6/cva6乱序执行原理.md)         | https://www.bilibili.com/video/BV1SK4y1F76t | 李子龙 |
 | 10.2 |                [cva6架构剖析](./cva6/cva6.md)                |                                             | 唐德宇 |
-| 10.2 |[asim cache解读](./asim/asim.md)|| 朱子谦 |
+| 10.2 |              [asim cache解读](./asim/asim.md)              |                                               | 朱子谦 |
