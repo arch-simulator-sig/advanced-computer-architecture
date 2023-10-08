@@ -18,3 +18,5 @@ riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-c
 | 10.8 |                [cva6架构剖析](./cva6/cva6.md)                |                                             | 唐德宇 |
 | 10.8 |              [asim cache解读](./asim/asim.md)              |                                               | 朱子谦 |
 | 10.8 |              [流水线冒险的处理](https://sxl2g9eu0e.feishu.cn/docx/Cy70dffCHonymfxw906cxTNsnnp)              |                    | 王京 |
+| 10.8 | [香山南湖架构前端解读](./xiangshan/frontend.pdf) | | 蒋晓天 |
+
