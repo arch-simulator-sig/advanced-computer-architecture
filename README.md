@@ -15,6 +15,6 @@ riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-c
 | 9.22 |    [超标量处理器系列1 cache](./超标量处理器设计/cache.md)    | https://www.bilibili.com/video/BV1z94y1p7kc | 段震伟 |
 | 9.22 | [tilelink入门](https://sagca6ucd2p.feishu.cn/docx/TbABd17ZYoryH8xpWNHcyL73noe) | https://www.bilibili.com/video/BV11N411J7Ty | 丁庆辰 |
 | 9.22 |         [cva6乱序执行原理](cva6/cva6乱序执行原理.md)         | https://www.bilibili.com/video/BV1SK4y1F76t | 李子龙 |
-| 10.2 |                [cva6架构剖析](./cva6/cva6.md)                |                                             | 唐德宇 |
-| 10.2 |              [asim cache解读](./asim/asim.md)              |                                               | 朱子谦 |
-| 10.2 |              [流水线冒险的处理](https://sxl2g9eu0e.feishu.cn/docx/Cy70dffCHonymfxw906cxTNsnnp)              |                    | 王京 |
+| 10.8 |                [cva6架构剖析](./cva6/cva6.md)                |                                             | 唐德宇 |
+| 10.8 |              [asim cache解读](./asim/asim.md)              |                                               | 朱子谦 |
+| 10.8 |              [流水线冒险的处理](https://sxl2g9eu0e.feishu.cn/docx/Cy70dffCHonymfxw906cxTNsnnp)              |                    | 王京 |
