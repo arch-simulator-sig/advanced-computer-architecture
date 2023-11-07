@@ -37,14 +37,13 @@ Pipeline + AXI4(not Lite) + TLB + Cache + BPU + Boot embedded os (时长待评�
 1. Difftest run single-cycle
 1. Pipeline + AXI4(not Lite) + TLB + Cache + BPU, 接入DRAMSim3
 1. Coremark 跑分优化 （hint: 硬件计数器）
+1. 移植freeRTOS + RT-thread
 1. 要求: 最终实现的处理器不要与任何一个参考核雷同！
 
 ### Lab1
 软件基础强化
 1. [quardStar tutorial](https://quard-star-tutorial.readthedocs.io/)
 1. 运行xv6-riscv and egos
-1. 移植freeRTOS
-1. 移植RT-thread
 1. 移植和运行Linux, 讲义by周涛
 
 ### Lab2
