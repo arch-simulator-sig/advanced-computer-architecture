@@ -28,6 +28,7 @@ Lab1
 1. [gatemate-riscv related about bpu and soc](https://github.com/fm4dd/gatemate-riscv)
 1. [Nutshell rv64imac + boot Linux](https://github.com/OSCPU/NutShell)
 1. [cva6 Labs](https://github.com/sifferman/labs-with-cva6)
+1. cpu设计实战
 
 
 ## 高级体系结构研讨会
