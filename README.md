@@ -15,6 +15,7 @@ Lab1 : Pipeline + AXI4(not Lite) + TLB + Cache + BPU + boot embedded os (时长�
 1. 移植freeRTOS
 1. 移植RT-thread
 1. coremark 跑分优化 （hint: 硬件计数器）
+1. 要求: 最终实现的处理器不要与任何一个参考核雷同！
 
 Lab2 : 顺序多发 + 性能分析 + 模拟器(from scratch) + 分析后端 + Fpga + boot Linux
 
