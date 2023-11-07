@@ -6,6 +6,27 @@
 
 riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-cva6)(A线) -> rocket-core(非阻塞cache) -> boom(都有) -> [vRoom](https://github.com/MoonbaseOtago/vroom)(多核) -> Xiangshan(世界最高峰）
 
+## Labs 
+
+Lab1 : Pipeline + AXI4(not Lite) + TLB + Cache + BPU + boot embedded os (时长待评估)
+
+1. 学习chisel，写处理器核
+1. 运行xv6 and egos
+1. 移植freeRTOS
+1. 移植RT-thread
+1. coremark 跑分优化 （hint: 硬件计数器）
+
+Lab2 : 顺序多发 + 性能分析 + 模拟器(from scratch) + 分析后端 + Fpga + boot Linux
+
+
+## 参考内容
+
+Lab1
+
+1. [yatcpu doc](https://yatcpu.sysu.tech/) and [Lab Axi+CSR+Pipeline+OS](https://github.com/hrpccs/2022-fall-yatcpu-repo)
+1. [gatemate-riscv related about bpu and soc](https://github.com/fm4dd/gatemate-riscv)
+1. [Nutshell rv64imac + boot Linux](https://github.com/OSCPU/NutShell)
+1. [cva6 Labs](https://github.com/sifferman/labs-with-cva6)
 
 
 ## 高级体系结构研讨会
