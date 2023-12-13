@@ -33,6 +33,7 @@ RV64IMAC + AXI4(not Lite) + TLB + Cache + BPU + Boot embedded os (时长待评�
 1. Learn scala + chisel, 能看懂Nutshell以及OpenXiangShan/Utility全部语法为达标
 ```
 下面我会列出需要注意的语法
+case class ; map 
 ```
 1. Difftest run single-cycle
 1. Pipeline + AXI4(not Lite) + TLB + Cache + BPU, difftest接入DRAMSim3
@@ -49,11 +50,15 @@ RV64IMAC + AXI4(not Lite) + TLB + Cache + BPU + Boot embedded os (时长待评�
 ### Lab2
 顺序多发 + 性能分析 + 模拟器(not gem5) + 分析后端 + Fpga
 
+参考架构 ridecore，有中文文档
+
 ### Lab3
 Lab2 + 多核
 
 ### Lab4 
 Lab3 + 乱序 (Fork nanhu/kunminghu) 全流程
+
+参考：[南京大学乱序讲义](https://cs.nju.edu.cn/swang/CA_16S/index.htm)
 
 ### Lab5
 Lab4 + PPA (低功耗RTL Fork E203, 模拟器 Cacti)
@@ -63,9 +68,27 @@ Lab4 + PPA (低功耗RTL Fork E203, 模拟器 Cacti)
 Lab0
 
 1. [yatcpu doc](https://yatcpu.sysu.tech/) and [Lab Axi+CSR+Pipeline+OS](https://github.com/hrpccs/2022-fall-yatcpu-repo)
+
 1. [gatemate-riscv related about bpu and soc](https://github.com/fm4dd/gatemate-riscv)
+
 1. [Nutshell rv64imac + boot Linux](https://github.com/OSCPU/NutShell)
+
 1. [Zhoushan 2-way ooo superscalar](https://github.com/OSCPU-Zhoushan/Zhoushan)
+
 1. [cva6 Labs](https://github.com/sifferman/labs-with-cva6)
-1. cpu设计实战
+
+1. cpu设计实战 + openla500
+
+    
+
+    
+
+## 乱序相关参考
+
+1. 参考超标量处理器设计文件夹PDF
+2. [zhengliu](https://gitee.com/liangliang678/ZhengLiu)
+3. [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
+4. [boom](https://github.com/riscv-boom/riscv-boom)
+5. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
+6. [openc910](https://github.com/T-head-Semi/openc910)
 
