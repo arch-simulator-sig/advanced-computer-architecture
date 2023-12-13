@@ -58,10 +58,9 @@ Lab2 + 多核
 ### Lab4 
 Lab3 + 乱序 (Fork nanhu/kunminghu) 全流程
 
-参考：[南京大学乱序讲义](https://cs.nju.edu.cn/swang/CA_16S/index.htm)
 
 ### Lab5
-Lab4 + PPA (低功耗RTL Fork E203, 模拟器 Cacti)
+Lab4 + PPA (低功耗RTL Fork E203, 模拟器 Cacti/sparta)
 
 ### 参考内容
 
@@ -77,18 +76,19 @@ Lab0
 
 1. [cva6 Labs](https://github.com/sifferman/labs-with-cva6)
 
-1. cpu设计实战 + openla500
+1. cpu设计实战 + [openla500](https://gitee.com/loongson-edu/nscscc-openla500)
 
     
 
     
 
-## 乱序相关参考
+### 乱序相关参考
 
 1. 参考超标量处理器设计文件夹PDF
-2. [zhengliu](https://gitee.com/liangliang678/ZhengLiu)
-3. [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
-4. [boom](https://github.com/riscv-boom/riscv-boom)
-5. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
-6. [openc910](https://github.com/T-head-Semi/openc910)
+1. [南京大学乱序讲义](https://cs.nju.edu.cn/swang/CA_16S/index.htm)
+1. [zhengliu](https://gitee.com/liangliang678/ZhengLiu)
+1. [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
+1. [boom](https://github.com/riscv-boom/riscv-boom)
+1. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
+1. [openc910](https://github.com/T-head-Semi/openc910)
 
