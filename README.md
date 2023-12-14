@@ -27,25 +27,21 @@ riscv-mini(熟悉chisel) -> [cva6 Labs](https://github.com/sifferman/labs-with-c
 
 ## 一生一芯高阶体系结构培训大纲
 
-### Lab0 [准入门槛]
-RV64IMAC + AXI4(not Lite) + TLB + Cache + BPU + Boot embedded os (时长待评估)
+注：时长为通过ysyx B线之后所需时间，每周约40-50h+
+
+### Lab0 [1.5 month]
+微架构：RV64IMAC + AXI4(not Lite) + TLB + Cache(blocked) + BPU(gshare)
 
 1. Learn scala + chisel, 能看懂Nutshell以及OpenXiangShan/Utility全部语法为达标
-```
-下面我会列出需要注意的语法
-case class ; map 
-```
-1. Difftest run single-cycle
 1. Pipeline + AXI4(not Lite) + TLB + Cache + BPU, difftest接入DRAMSim3
-1. Coremark 跑分优化 （hint: 硬件计数器）
-1. 移植freeRTOS + RT-thread
+1. Coremark 跑分优化 （hint: 硬件计数器）性能要求：coremark IPC 0.6+
+1. 移植RT-thread
 1. 要求: 最终实现的处理器不要与任何一个参考核雷同！
-
-### Lab1
+### Lab1 [1 month]
 软件基础强化
-1. [quardStar tutorial](https://quard-star-tutorial.readthedocs.io/)
-1. 运行xv6-riscv and egos
-1. 移植和运行Linux, 讲义by周涛
+1. [quardStar tutorial](https://quard-star-tutorial.readthedocs.io/) [2 week]
+1. 运行xv6-riscv
+1. 移植和运行Linux
 
 ### Lab2
 顺序多发 + 性能分析 + 模拟器(not gem5) + 分析后端 + Fpga
