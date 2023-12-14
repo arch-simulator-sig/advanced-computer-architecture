@@ -83,10 +83,9 @@ Lab0
 1. [18-740](https://course.ece.cmu.edu/~ece740/f10/doku.php?id=lectures)
 1. [南京大学乱序讲义](https://cs.nju.edu.cn/swang/CA_16S/index.htm)
 1. [brief into ooo](https://jia.je/tags/#brief-into-ooo)
-1. [rsd-core](https://github.com/rsd-devel/rsd)
-1. [zhengliu](https://gitee.com/liangliang678/ZhengLiu)
-1. [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
+1. 现代处理器设计-超标量处理器基础  + [rsd-core](https://github.com/rsd-devel/rsd) + [ridecore](https://github.com/dzwduan/ridecore)
+1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
 1. [boom](https://github.com/riscv-boom/riscv-boom)
 1. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
-1. [openc910](https://github.com/T-head-Semi/openc910)
+1. [openc910](https://github.com/T-head-Semi/openc910) 
 
