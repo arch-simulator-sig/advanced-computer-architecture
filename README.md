@@ -79,5 +79,6 @@ Lab0
 1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
 1. [boom](https://github.com/riscv-boom/riscv-boom)
 1. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
+1. [vRoom](https://github.com/MoonbaseOtago/vroom)
 1. [openc910](https://github.com/T-head-Semi/openc910) 
 
