@@ -75,6 +75,7 @@ Lab0
 1. [18-740](https://course.ece.cmu.edu/~ece740/f10/doku.php?id=lectures)
 1. [南京大学乱序讲义](https://cs.nju.edu.cn/swang/CA_16S/index.htm)
 1. [brief into ooo](https://jia.je/tags/#brief-into-ooo)
+1. [nop-processor](https://github.com/NOP-Processor/NOP-Core)
 1. 现代处理器设计-超标量处理器基础  + [rsd-core](https://github.com/rsd-devel/rsd) + [ridecore](https://github.com/dzwduan/ridecore)
 1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
 1. [boom](https://github.com/riscv-boom/riscv-boom)
