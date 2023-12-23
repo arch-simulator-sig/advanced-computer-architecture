@@ -22,7 +22,7 @@
 注：时长为通过ysyx B线之后所需时间，每周约40-50h+
 
 ### Lab0 [1.5 month]
-微架构：RV64IMAC + AXI4(not Lite) + TLB + Cache(blocked) + BPU(gshare)
+微架构：RV64IMAC + MSU + AXI4(not Lite) + TLB + Cache(blocked) + BPU(tournament)
 
 1. Learn scala + chisel, 能看懂Nutshell以及OpenXiangShan/Utility全部语法为达标
 1. Pipeline + AXI4(not Lite) + TLB + Cache + BPU, difftest接入DRAMSim3
@@ -78,6 +78,7 @@ Lab0
 1. [nop-processor](https://github.com/NOP-Processor/NOP-Core)
 1. 现代处理器设计-超标量处理器基础  + [rsd-core](https://github.com/rsd-devel/rsd) + [ridecore](https://github.com/dzwduan/ridecore)
 1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala)
+1. [NaxRiscv](https://spinalhdl.github.io/NaxRiscv-Rtd/main/NaxRiscv/introduction/index.html)
 1. [boom](https://github.com/riscv-boom/riscv-boom)
 1. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
 1. [vRoom](https://github.com/MoonbaseOtago/vroom)
