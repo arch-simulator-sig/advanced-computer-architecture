@@ -14,6 +14,7 @@
 | 10.8 | [香山南湖架构前端解读](./xiangshan/frontend.pdf) |https://www.bilibili.com/video/BV1PN411b7od | 蒋晓天 |
 | 10.20 | [微处理器性能分析与优化 上](loongson/微处理器性能分析与优化.md) |https://www.bilibili.com/video/BV1RN411x7MF | 段震伟 |
 | 10.20 | [RocketChip DCache分析](rocketchip/Rocket-DCache.pdf) |https://www.bilibili.com/video/BV1HH4y197jt | 丁庆辰 |
+| 1.29 | [乱序发射相关基础](./超标量处理器设计/issue_basis.pdf) |https://www.bilibili.com/video/BV1m2421w7tm | 刘汉章 |
 
 
 
