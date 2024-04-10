@@ -78,7 +78,7 @@ Lab0
 1. [brief into ooo](https://jia.je/tags/#brief-into-ooo)
 1. [nop-processor](https://github.com/NOP-Processor/NOP-Core)
 1. 现代处理器设计-超标量处理器基础  + [rsd-core](https://github.com/rsd-devel/rsd) + [ridecore](https://github.com/dzwduan/ridecore)
-1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala) + [rv32gc+boot linux](https://github.com/LoveLonelyTime/Bergamot)
+1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala) + [Bergamot](https://github.com/LoveLonelyTime/Bergamot)
 1. [NaxRiscv](https://spinalhdl.github.io/NaxRiscv-Rtd/main/NaxRiscv/introduction/index.html)
 1. [boom](https://github.com/riscv-boom/riscv-boom)
 1. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
