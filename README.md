@@ -22,17 +22,21 @@
 
 注：时长为通过ysyx B线之后所需时间，每周约40-50h+
 
-### Lab0 [1.5 month]
-微架构：RV64IMAC + MSU + AXI4(not Lite) + TLB + Cache(blocked) + BPU(tournament)
+### Lab0 [2 month]
 
-1. Learn scala + chisel, 能看懂Nutshell以及OpenXiangShan/Utility全部语法为达标
-1. Pipeline + AXI4(not Lite) + TLB + Cache + BPU, difftest接入DRAMSim3
-1. Coremark 跑分优化 （hint: 硬件计数器）性能要求：coremark IPC 0.6+
-1. 移植RT-thread
-1. 要求: 最终实现的处理器不要与任何一个参考核雷同！
+- [ ] 微架构 : RV64GC (IMACFA) + MSU + AXI4(burst) + TLB + Cache(un blocked) + BPU (Tournament)
+- [ ] 性能 : Coremark 跑分优化 （hint: 硬件计数器）性能要求：coremark IPC 0.6+ , Freq 100M+
+- [ ] 外设 : CLINT + PLIC + UART
+- [ ] 对齐 : Function model + Perf model
+- [ ] 软件测试 : riscv-tests + cpu-tests + coremark + dhrystone + microbench + RT-thread + nommu-Linux + Linux
+- [ ] 测试流程 : verilator + vcs + dc + FPGA
+
+注：可以调用rocket-chip api减少工作量，[参考框架](https://github.com/arch-simulator-sig/chisel-env)
+
+
 ### Lab1 [1 month]
 软件基础强化
-1. [quardStar tutorial](https://quard-star-tutorial.readthedocs.io/) [2 week]
+1. [quardStar tutorial](https://github.com/arch-simulator-sig/quard-star-tutorial-2021) [2 week]
 1. 运行xv6-riscv
 1. 移植和运行Linux
 
