@@ -15,6 +15,7 @@
 | 10.20 | [微处理器性能分析与优化 上](loongson/微处理器性能分析与优化.md) |https://www.bilibili.com/video/BV1RN411x7MF | 段震伟 |
 | 10.20 | [RocketChip DCache分析](rocketchip/Rocket-DCache.pdf) |https://www.bilibili.com/video/BV1HH4y197jt | 丁庆辰 |
 | 1.29 | [乱序发射相关基础](./超标量处理器设计/issue_basis.pdf) |https://www.bilibili.com/video/BV1m2421w7tm | 刘汉章 |
+| WIP | [超标量处理器设计剩余内容](https://www.zhihu.com/column/c_1772393272914403328) | | 段震伟 |
 
 
 
@@ -85,7 +86,7 @@ Lab0
 1. 超标量处理设计 + [zhengliu](https://gitee.com/liangliang678/ZhengLiu) + [la32r-pipeline](https://github.com/MaZirui2001/LA32R-pipeline-scala) + [Bergamot](https://github.com/LoveLonelyTime/Bergamot)
 1. [NaxRiscv](https://spinalhdl.github.io/NaxRiscv-Rtd/main/NaxRiscv/introduction/index.html)
 1. [boom](https://github.com/riscv-boom/riscv-boom)
-1. [xiangshan](https://github.com/OpenXiangShan/XiangShan)
+1. [xiangshan](https://github.com/OpenXiangShan/XiangShan) + 香山源代码剖析
 1. [vRoom](https://github.com/MoonbaseOtago/vroom)
 1. [openc910](https://github.com/T-head-Semi/openc910) 
 
