@@ -50,7 +50,7 @@
 Lab2 + 多核
 
 ### Lab4 
-Lab3 + 乱序 (Fork nanhu/kunminghu) 全流程
+Lab3 (Fork Yanqihu) , 可联系 dzwduan@163.com 报名，名额有限
 
 
 ### Lab5
