@@ -88,5 +88,6 @@ Lab0
 1. [boom](https://github.com/riscv-boom/riscv-boom)
 1. [xiangshan](https://github.com/OpenXiangShan/XiangShan) + 香山源代码剖析
 1. [vRoom](https://github.com/MoonbaseOtago/vroom)
-1. [openc910](https://github.com/T-head-Semi/openc910) 
+1. [openc910](https://github.com/T-head-Semi/openc910)
+1. [高性能cpu架构1](https://www.bilibili.com/video/BV1y3GMeDEnJ) + [高性能cpu架构2](https://www.bilibili.com/video/BV1we48ejEfd) + [架构图](https://1drv.ms/f/s!AiW5eJ6PHsfwlusK5NwzjGa59ZI4nw?e=Yt0H6a)
 
