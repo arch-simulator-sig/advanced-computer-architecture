@@ -19,9 +19,9 @@
 
 
 
-## 一生一芯高阶体系结构培训大纲
+## 高阶体系结构自学大纲
 
-注：时长为通过ysyx B线之后所需时间，每周约40-50h+
+新手水平为通过一生一芯B线
 
 ### Lab0 [2 month]
 
@@ -41,24 +41,40 @@
 1. 运行xv6-riscv
 1. 移植和运行Linux
 
-### Lab2
-顺序多发 + 性能分析 + 模拟器(not gem5) + 分析后端 + Fpga
-
-参考架构 ridecore，有中文文档
-
-### Lab3
-Lab2 + 多核
-
-### Lab4 
-Lab3 (Fork Nanhu) , 可联系 dzwduan@163.com 报名，名额有限
 
 
-### Lab5
-Lab4 + PPA (低功耗RTL Fork E203, 模拟器 Cacti/sparta)
+### Lab2 [3-6 month]
 
-### 参考内容
+乱序入门参考架构 ridecore
 
-Lab0
+<img src="./img/README/image-20241014163149791.png" alt="image-20241014163149791" style="zoom:50%;" />
+
+参考资料详见超标量处理器设计目录下的乱序入门中文文档
+
+
+
+### Lab3 [6 month+]
+根据架构文档来实现对应的RTL，并反思为什么会有这样的设计
+
+参考如下架构文档
+
+1. [高性能cpu架构1](https://www.bilibili.com/video/BV1y3GMeDEnJ) + [高性能cpu架构2](https://www.bilibili.com/video/BV1we48ejEfd) + [架构图](https://1drv.ms/f/s!AiW5eJ6PHsfwlusK5NwzjGa59ZI4nw?e=Yt0H6a)
+2. 基于RISC-V指令集的超标量处理器设计与实现
+
+
+
+### Lab4 [1 year+]
+登山计划，实现昆明湖，昆明湖文档如下：
+
+https://github.com/OpenXiangShan/XiangShan-doc/tree/kmh-doc
+
+重点是乱序访存，V-extension
+
+登山计划需要加群的，可以在评论区或者[Github issue](https://github.com/arch-simulator-sig/advanced-computer-architecture)留言
+
+
+
+### IC设计入门参考内容
 
 1. [yatcpu doc](https://yatcpu.sysu.tech/) and [Lab Axi+CSR+Pipeline+OS](https://github.com/hrpccs/2022-fall-yatcpu-repo)
 
