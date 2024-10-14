@@ -60,6 +60,7 @@
 
 1. [高性能cpu架构1](https://www.bilibili.com/video/BV1y3GMeDEnJ) + [高性能cpu架构2](https://www.bilibili.com/video/BV1we48ejEfd) + [架构图](https://1drv.ms/f/s!AiW5eJ6PHsfwlusK5NwzjGa59ZI4nw?e=Yt0H6a)
 2. 基于RISC-V指令集的超标量处理器设计与实现
+3. 龙芯GS464E
 
 
 
